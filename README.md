@@ -7,7 +7,7 @@ The key features for Synthal is:
 - Synthal tests contain other information to get a deeper insight such as SuccessPercent, Duration, 2XX, 4XX, 5XX
   - Synthal tests that use `runHttpStep()` will also contain SuccessPercent and Duration with an overall view and each Step as well.
 - Send these monitors to Datadog to create monitors that will alert on whatever query you do! 
-- Store the stacktrace on why the test failed!
+- Store the stacktrace onto GCP to see why the test failed!
 
 ## Repository
 This repository contains the source code of the Synthal server.
